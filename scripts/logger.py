@@ -439,7 +439,7 @@ def mpi_weighted_mean(comm, local_name2valcount):
         return {}
 
 
-def configure(dir='128/iterate/df/synth4_models', format_strs=None, comm=None, log_suffix=""):
+def configure(dir='128/iterate/df/synth_models', format_strs=None, comm=None, log_suffix=""):
     """
     If comm is provided, average all numerical stats across that comm
     """
